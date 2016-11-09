@@ -11,13 +11,16 @@ hr {
     background-image: url(/parallax/images/camo.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-top: 0px;
+    margin-top: -20px;
+    font-family: 'Cabin Sketch', cursive;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 .main-content .jumbotron {
     width: 100%;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: rgba(255, 255, 255, 0.05);
     padding: 40px;
     max-width: 600px;
     margin: 0 auto;
@@ -26,6 +29,10 @@ hr {
 .site-section {
     text-align: center;
     padding: 50px 0;
+}
+
+a.navbar-brand {
+    font-family: 'Cabin Sketch', cursive;
 }
 
 #welcome p {

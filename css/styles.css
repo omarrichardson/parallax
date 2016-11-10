@@ -7,9 +7,9 @@ hr {
 }
 
 .main-content {
-    padding: 50px;
+    padding: 240px;
     background-image: url(/parallax/images/camo.jpeg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-top: -5px;
     font-family: 'Cabin Sketch', cursive;
@@ -35,6 +35,10 @@ a.navbar-brand {
     font-family: 'Cabin Sketch', cursive;
 }
 
+#bs-navbar-collapse-1>ul {
+    text-align: center;
+}
+
 #welcome p {
     max-width: 800px;
     font-size: 15px;
@@ -46,24 +50,13 @@ a.navbar-brand {
     margin-bottom: 30px;
 }
 
-@media (max-width:767px) {
-    .main-content {}
-}
-
 
 /*
-@media (max-width:991px) {
-    .main-content .jumbotron {
-        padding: 20px;
-    }
-}
-
 @media (max-width:991px) {
     .main-content {
         padding: 20px;
     }
-}
-*/
+}*/
 
 footer {
     background-color: #292c2f;

@@ -67,6 +67,11 @@ a.navbar-brand {
     text-align: center;
 }
 
+#bs-navbar-collapse-1>ul>li>a:hover {
+    font-size: 3rem;
+    color: darkgray;
+}
+
 #welcome p {
     max-width: 800px;
     font-size: 15px;
@@ -110,5 +115,8 @@ footer {
         float: left;
         width: 98%;
         margin: -20px 10px 5px 5px;
+    }
+    .main-content {
+        padding: 200px;
     }
 }
